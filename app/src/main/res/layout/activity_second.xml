@@ -64,6 +64,7 @@
         android:layout_height="51dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="360dp"
+        android:onClick="Add"
         android:text="+"
         app:layout_constraintEnd_toStartOf="@+id/btn_sub"
         app:layout_constraintHorizontal_bias="0.257"
@@ -76,6 +77,7 @@
         android:layout_height="51dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
+        android:onClick="Multiplication"
         android:text="*"
         app:layout_constraintEnd_toStartOf="@+id/btn_sub"
         app:layout_constraintHorizontal_bias="0.257"
@@ -88,6 +90,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="360dp"
         android:layout_marginEnd="32dp"
+        android:onClick="Subtraction"
         android:text="-"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -98,6 +101,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
+        android:onClick="Devision"
         android:text="/"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_sub" />
